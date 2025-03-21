@@ -1,5 +1,6 @@
 import numpy as np
 
+# https://cglab.ca/~sander/misc/ConvexGeneration/convex.html
 def make1vec(coord_min,coord_max,ngon):
     coords=np.random.randint( coord_min,coord_max, ngon )
     c_s = np.sort( coords )
